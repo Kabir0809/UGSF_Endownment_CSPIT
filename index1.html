@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Endowment Chair Activities</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 40px;
+      }
+
+      .faculty-card {
+        margin: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        width: 275px;
+        margin: 20x 10px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        text-align: center;
+        transition: transform 0.3s;
+        overflow: hidden;
+        flex: 1 1 275px;
+        height: 100%;
+        /* Adjusted margin-bottom for spacing between card rows */
+      }
+      .col-lg-3,
+      .col-md-6,
+      .col-sm-12 {
+        margin-bottom: 25px; /* Adjust the space between vertically stacked cards */
+      }
+
+      .faculty-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .faculty-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .card-header {
+        background-color: #f8f9fa;
+        padding: 15px;
+        height: 60%;
+        overflow: hidden;
+      }
+
+      .card-footer {
+        background-color: #fff;
+        padding: 15px;
+        margin-top: 10px;
+      }
+
+      .contact-icons {
+        margin-top: auto;
+      }
+
+      .card-header h5 {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .card-header p {
+        margin-bottom: 5px;
+      }
+
+      .faculty-card p {
+        text-align: center;
+        margin: auto;
+      }
+
+      .contact-icons a {
+        margin-right: 10px;
+        color: #007bff;
+        font-size: 18px;
+      }
+      .header-container {
+        background-color: rgb(0, 102, 179); /* Same blue color */
+        text-align: center;
+        padding: 20px 0;
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000; /* Ensures the header stays above other content */
+      } 
+      body {
+        padding-top: 80px; /* Adjust this value based on header height */
+      }
+
+      .header-container h1 {
+        margin: 0;
+        font-size: 42px;
+        font-weight: bolder;
+      }
+      @media (max-width: 1200px) {
+  .header-container h1 {
+    font-size: 4vw; /* Adjust for medium screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .header-container h1 {
+    font-size: 5vw; /* Adjust for tablets and smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container h1 {
+    font-size: 6vw; /* Adjust for mobile screens */
+    padding: 10px 0; /* Adjust padding for smaller screens */
+  }
+}
+    </style>
+  </head>
+
+  <body>
+    <div class="header-container">
+      <h1>CSPIT Endowment Chair Activity</h1>
+    </div>
+    <div class="container">
+      <h3 class="text-center my-4">1. Computer Engineering</h3>
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="faculty-card">
+            <img
+              src="./images/Prof. Marcin Paprzycki.jpg"
+              alt="Prof. Marcin Paprzycki"
+            />
+            <div class="card-header">
+              <h5>Prof. Marcin Paprzycki</h5>
+              <p>Polish Academy of Sciences, Warsaw, Poland</p>
+            </div>
+            <p>December 10-14, 2018</p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="faculty-card">
+            <img
+              src="images/Dr. Ardhendu Behera.jpg"
+              alt="Dr. Ardhendu Behera"
+            />
+            <div class="card-header">
+              <h5>Dr. Ardhendu Behera</h5>
+              <p>
+                Senior lecturer and Programme Leader, Department of Computer
+                Science, Edge Hill University, Ormskirk, Lancashire, UK
+              </p>
+            </div>
+            <p>February 12-16, 2018</p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="faculty-card">
+            <img src="images/aditya_nigam.jpg" alt="Dr. Aditya Nigam" />
+            <div class="card-header">
+              <h5>Dr. Aditya Nigam</h5>
+              <p>IIT Mandi</p>
+            </div>
+            <p>December 10-14, 2018</p>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="text-center my-4">2. Information Technology</h3>
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="faculty-card">
+            <img
+              src="./images/ponurangam.jpg"
+              alt="Dr. Ponnurangam Kumaraguru"
+            />
+            <div class="card-header">
+              <h5>Dr. Ponnurangam Kumaraguru</h5>
+              <p>IIIT Hyderabad</p>
+            </div>
+            <p>February 27-29, 2024</p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="faculty-card">
+            <img
+              src="./images/Prof. Marcin Paprzycki.jpg"
+              alt="Prof. Marcin Paprzycki"
+            />
+            <div class="card-header">
+              <h5>Prof. Marcin Paprzycki</h5>
+              <p>Polish Academy of Sciences, Warsaw, Poland</p>
+            </div>
+            <p>December 10-14, 2018</p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="faculty-card">
+            <img
+              src="images/Dr. Ardhendu Behera.jpg"
+              alt="Dr. Ardhendu Behera"
+            />
+            <div class="card-header">
+              <h5>Dr. Ardhendu Behera</h5>
+              <p>
+                Senior lecturer and Programme Leader, Department of Computer
+                Science, Edge Hill University, Ormskirk, Lancashire, UK
+              </p>
+            </div>
+            <p>February 12-16, 2018</p>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="text-center my-4">3. CSE</h3>
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="faculty-card">
+            <img src="./images/ganapati panda .jpeg" alt="Ganapati Panda" />
+            <div class="card-header">
+              <h5>Dr. Ganapati Panda</h5>
+              <p>
+                Professor and Research advisor at C V Raman Global University,
+                Odisha.
+              </p>
+            </div>
+            <p>Date: February 27-29, 2024</p>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="text-center my-4">4. EC</h3>
+      <div class="row">
+        <!-- Card 1 -->
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="faculty-card">
+            <img
+              src="./images/1.Dr. Merih Palandoken.png"
+              alt="Dr. Merih Palandoken"
+            />
+            <div class="card-header">
+              <h5>Dr. Merih Palandoken</h5>
+              <p>Izmir Katip Celebi University, Izmir, Turkey</p>
+            </div>
+            <p>February 27-29, 2024</p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="faculty-card">
+            <img
+              src="./images/2.Dr. Arokiaswami Alphones.jpg"
+              alt="Dr. Arokiaswami Alphones"
+            />
+            <div class="card-header">
+              <h5>Dr. Arokiaswami Alphones</h5>
+              <p>Nanyang Technological University, Singapore</p>
+            </div>
+            <p>December 10-14, 2018</p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="faculty-card">
+            <img src="images/3.Dr. Levent Sevgi.png" alt="Dr. Levent Sevgi" />
+            <div class="card-header">
+              <h5>Dr. Levent Sevgi</h5>
+              <p>University of Okan, Turkey</p>
+            </div>
+            <p>February 12-16, 2018</p>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="faculty-card">
+            <img
+              src="./images/4.Dr. Cynthia Furse.jpg"
+              alt="Dr. Cynthia Furse"
+            />
+            <div class="card-header">
+              <h5>Dr. Cynthia Furse</h5>
+              <p>University of Utah, USA</p>
+            </div>
+            <p>February 12-16, 2018</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="faculty-card">
+            <img
+              src="./images/5.Dr. Emil Bjornson.png"
+              alt="Dr. Emil Bjornson"
+            />
+            <div class="card-header">
+              <h5>Dr. Emil Bjornson</h5>
+              <p>KTH Royal Institute of Technology, Sweden</p>
+            </div>
+            <p>February 12-16, 2018</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="faculty-card">
+            <img
+              src="./images/6.Dr. Nguyen Truong Khang.png"
+              alt="Dr. Nguyen Truong Khang"
+            />
+            <div class="card-header">
+              <h5>Dr. Nguyen Truong Khang</h5>
+              <p>Ton Duc Thang University, Vietnam</p>
+            </div>
+            <p>February 12-16, 2018</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="faculty-card">
+              <img
+                src="./images/7.Dr. Satyanarayana Bheesette.png"
+                alt="Dr. Satyanarayana Bheesette"
+              />
+              <div class="card-header">
+                <h5>Dr. Satyanarayana Bheesette</h5>
+                <p>Department of High Energy Physics, TIFR, Mumbai, India</p>
+              </div>
+              <p>February 12-16, 2018</p>
+            </div>
+          </div>
+
+          
+      </div>
+    </div>
+  </body>
+</html>
